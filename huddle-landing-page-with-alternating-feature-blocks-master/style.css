@@ -40,15 +40,14 @@ header{
 }
 
 .header-section{
+    padding: 6rem 0;
     display: flex;
-    height: 100vh;
     width: 100%;
     align-items: center;
 }
 
 section{
     display: flex;
-    height: 100vh;
     align-items: center;
     justify-content: center;
 }
@@ -116,7 +115,6 @@ h3{
 }
 
 .wrapper{
-    height: 80%;
     margin: 4rem 2rem 2rem 2rem ;
     padding: 2rem;
     box-shadow: 0 5px 10px rgba(104, 104, 104, 0.2), 0 5px 10px rgba(104, 104, 104, 0.2);
@@ -200,6 +198,7 @@ a{
 
 .footer-content{
     padding: .5rem;
+    display: flex;
 }
 
 @media screen and (max-width: 780px){
@@ -214,7 +213,7 @@ a{
     }
 
     .hero-img{
-        width: 50%;
+        width: 80%;
     }
 
     .container{
@@ -246,5 +245,13 @@ a{
 
     .section-2{
         flex-direction: column-reverse;
+    }
+
+    button{
+        font-size: .7rem;
+    }
+
+    #nav-btn{
+        padding: .4rem;
     }
 }
